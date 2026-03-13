@@ -1,0 +1,30 @@
+# ============================================
+# .gitignore - Ejercicio Git - Hogares ISN
+# ============================================
+
+# Configuración local con credenciales (NUNCA subir al repo)
+config.php
+
+# Logs del servidor
+*.log
+/logs/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dependencias (si se usa Composer en el futuro)
+/vendor/
+composer.lock
+
+# Variables de entorno
+.env
+.env.local
